@@ -10,14 +10,14 @@ console.log(numerosInversos)
 */
 
 
-function inversaoDeNumeros(num1, num2, num3){
+function inversaoDeNumeros(num1, num2, num3, num4, num5){
 
-    var numeros = [num1, num2, num3]
+    var numeros = [num1, num2, num3, num4, num5]
 
-    numeros.reverse(num1, num2, num3);
+    numeros.reverse(num1, num2, num3, num4, num5);
 
     return numeros
     
 }
 
-console.log(inversaoDeNumeros(8, 9, 10))
+console.log(inversaoDeNumeros(8, 9, 10, 11, 12))
