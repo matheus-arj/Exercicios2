@@ -8,3 +8,16 @@ numerosInversos.reverse();
 console.log(numerosInversos)
 
 */
+
+
+function inversaoDeNumeros(num1, num2, num3){
+
+    var numeros = [num1, num2, num3]
+
+    numeros.reverse(num1, num2, num3);
+
+    return numeros
+    
+}
+
+console.log(inversaoDeNumeros(8, 9, 10))
