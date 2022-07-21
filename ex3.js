@@ -9,15 +9,15 @@ console.log(numerosInversos)
 
 */
 
+function reverseNumeros(numeros) {
+    var novoNumero = []
+    for (var i = numeros.length -1 ; i >= 0 ; i--) {
+        novoNumero += numeros [i];
+     /* novoNumero = novoNumero + numeros [i]; */
 
-function inversaoDeNumeros(num1, num2, num3, num4, num5){
+    }
 
-    var numeros = [num1, num2, num3, num4, num5]
-
-    numeros.reverse(num1, num2, num3, num4, num5);
-
-    return numeros
-    
+    return novoNumero
 }
 
-console.log(inversaoDeNumeros(8, 9, 10, 11, 12))
+ console.log(reverseNumeros([10," ", 20, " ", 30, " ", 40, " ", 50]))
