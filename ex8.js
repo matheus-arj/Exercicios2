@@ -7,4 +7,4 @@ function calculeTabuadaDez(valor) {
 }
 
 
-calculeTabuadaDez(9)
+calculeTabuadaDez(4)

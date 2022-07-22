@@ -12,7 +12,7 @@ console.log(numerosInversos)
 function reverseNumeros(numeros) {
     var novoNumero = []
     for (var i = numeros.length -1 ; i >= 0 ; i--) {
-        novoNumero += numeros [i];
+        novoNumero.push(numeros [i]);
      /* novoNumero = novoNumero + numeros [i]; */
 
     }
@@ -20,4 +20,4 @@ function reverseNumeros(numeros) {
     return novoNumero
 }
 
- console.log(reverseNumeros([10," ", 20, " ", 30, " ", 40, " ", 50]))
+ console.log(reverseNumeros([10, 20, 30, 40, 50]))
