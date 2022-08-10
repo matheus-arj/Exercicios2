@@ -6,15 +6,15 @@
 // - sobrenome do meliante
 
 // 1 TESTE: 
-function calculoDeReajuste(salario, nome) {
+// function calculoDeReajuste(salario, nome) {
 
-    var reajuste = salario * 0.10
-    var total = salario + reajuste
+//     var reajuste = salario * 0.10
+//     var total = salario + reajuste
     
-    return total + nome    
-}
+//     return total + nome    
+// }
 
-console.log(calculoDeReajuste(3000, "Matheus Araujo"));
+// console.log(calculoDeReajuste(3000, "Matheus Araujo"));
 
 // 2 TESTE: 
 // function calculoDeReajuste(salario, nome) {
@@ -28,3 +28,18 @@ console.log(calculoDeReajuste(3000, "Matheus Araujo"));
 // const inforFuncionario = calculoDeReajuste(2400, "Matheus Araujo")
 
 // console.log(`Salario: ${inforFuncionario.total} - Nome: ${inforFuncionario.nome}`);
+
+
+function calculoDeReajuste() {
+    const funcionario = {
+        salario: 3000,
+        nome: "Matheus",
+        sobrenome: "Araujo"
+    }
+    
+    var reajuste = salario * 0.10
+    var total = salario + reajuste
+    
+    return total + nome    
+}
+
